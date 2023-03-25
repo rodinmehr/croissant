@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background: hsla(41, 100%, 87%, 1);
+
+    background: linear-gradient(0deg, hsla(41, 100%, 87%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    background: -moz-linear-gradient(0deg, hsla(41, 100%, 87%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    background: -webkit-linear-gradient(0deg, hsla(41, 100%, 87%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FFEABC", endColorstr="#FFFFFF", GradientType=1);
+}
+
+.card {
+    background-color: #fff;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 calc(50% - 1rem);
+    flex: 1 1 calc(50% - 1rem);
+    width: calc(60% - 1rem);
+    margin: 0 0.5rem 1rem;
+    -webkit-box-shadow: 0 2px 10px rgb(0 0 0 / 5%);
+    box-shadow: 0 2px 10px rgb(0 0 0 / 5%);
+    border-radius: 8px;
+}
+
+#main-content {
+    margin: 30px auto;
+    justify-content: center;
+    color: #ffae00;
+    padding: 20px;
+}
+
+#main-content h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#main-content p {
+    padding: 10px;
+    color: #312200;
+}
+
+#main-content ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#main-content ul li {
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+a {
+    color: #835900
+}
